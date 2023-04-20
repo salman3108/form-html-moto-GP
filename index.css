@@ -1,0 +1,12 @@
+.spasi {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button-submit {
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}

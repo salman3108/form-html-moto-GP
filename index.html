@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Latihan Membuat Form HTML<M</title>
+</head>
+<body>
+    <section class="judul-form">
+        <h1>Form Pendaftaran Moto GP</h1>
+    </section>
+
+    <section class="form"> 
+        <form action="sukses.html">
+            <div class="spasi">
+                <label for="nama"><b>Nama Lengkap</b></label>
+                <input type="text">
+            </div>
+            
+            <div class="spasi">
+                <label for="jenis_kelamin"><b>Jenis Kelamin</b></label>
+                <br>
+                <label for="jenis_kelamin">
+                    Laki Laki
+                </label>
+                <input id="male" type="radio" name="jenis_kelamin" value="Laki Laki">
+                <label for="jenis_kelamin">Perempuan</label>
+                <input id="female" type="radio" name="jenis_kelamin" value="Perempuan">
+            </div>
+
+            <div class="spasi">
+                <label for="merk_kendaraan"><b>Merk Kendaraan</b>
+                </label>
+                <select name="merk_kendaraan" id="merk_kendaraan">
+                    <option value="" disabled>Pilih Kendaraan</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Yamaha">Yamaha</option>
+                    <option value="Suzuko">Suzuko</option>
+                </select>
+            </div>
+
+            <div class="spasi">
+                <button type="submit" class="button-submit">Submit</button>
+            </div>
+        </form>
+    </section>
+
+</body>
+</html>
